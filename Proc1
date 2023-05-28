@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+void PowerA3(double A, double &B) {
+    B = A * A * A;
+}
+int main() {
+double num1, num2, num3, num4, num5;
+    double result1, result2, result3, result4, result5;
+
+
+    cout << "Imput 5 number ";
+    cin >> num1 >> num2 >> num3 >> num4 >> num5;
+
+    PowerA3(num1, result1);
+    PowerA3(num2, result2);
+    PowerA3(num3, result3);
+    PowerA3(num4, result4);
+    PowerA3(num5, result5);
+    
+        cout << "Third powers of numbers" ;
+	cout<< result1 << " "<< endl;
+        cout<< result2 << " "<< endl;
+	cout << result3 << ""<< endl;
+	cout << result4 << " "<< endl ;
+	cout<< result5 << endl;
+}
