@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+float circles(float r){
+return 3.14*r*r;
+}
+int main() {
+for(int i=1; i<=3; ++i){
+float r;
+cout <<"r" ;
+cin>>r;
+cout << "S:" << circles(r) << endl;
+}
+}
