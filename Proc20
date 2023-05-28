@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+float trianglep(float a, float h){
+return 2*sqrt(pow(a/2,2)+pow(h,2))+a;
+}
+int main() {
+int i;
+for(i=1; i<=3; ++i){
+float a,h;
+cout <<"a" ;
+cin>>a;
+cout <<"h" ;
+cin>>h;
+cout << "P:" << trianglep(a,h) << endl;
+}
+}
+    
